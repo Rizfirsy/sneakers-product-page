@@ -1,0 +1,17 @@
+.container--page {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 100px;
+}
+
+@media screen and (max-width: 786px) {
+  .container--page {
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    padding: 0;
+  }
+}
